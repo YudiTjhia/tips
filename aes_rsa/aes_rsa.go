@@ -2,8 +2,8 @@ package aes_rsa
 
 import (
 	"errors"
-	"sales-services/account/shared/aesh"
-	"sales-services/account/shared/rsah"
+	"tips/aesh"
+	"tips/rsah"
 	"strings"
 )
 
