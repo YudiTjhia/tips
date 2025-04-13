@@ -21,7 +21,7 @@ func (r *Rsah) GenerateKeys() error {
 		return err
 	}
 	privASN1 := x509.MarshalPKCS1PrivateKey(privateKey)
-	privPEM := pem.EncodeToMemory(&pem.Block{``
+	privPEM := pem.EncodeToMemory(&pem.Block{
 		Type:  "RSA PRIVATE KEY",
 		Bytes: privASN1,
 	})

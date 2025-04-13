@@ -25,5 +25,4 @@ func Test_AesRsa(t *testing.T) {
 		t.Fatal(err)
 	}
 	assert.Equal(t, raw, decrypted, "Decrypted text should match the original plaintext")
-
 }
